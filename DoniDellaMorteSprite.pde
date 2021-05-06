@@ -1,0 +1,12 @@
+size(800,800);
+background(128);
+noFill();
+stroke(0);
+strokeWeight(10);
+triangle(0,height-5,width/2,0,width,height-5);
+line(width/2,height,width/2,0);
+ellipse(width/2,3*height/4-45,500,500);
+fill(0);
+ellipse(width/2,3*height/4,150,150);
+ellipse(width/2,height/2,100,100);
+ellipse(width/2,height/4,50,50);
